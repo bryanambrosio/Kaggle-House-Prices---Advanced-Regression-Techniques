@@ -6,11 +6,5 @@ Este projeto tem como objetivo prever os preços de casas utilizando técnicas a
 
 - **data/**: Contém os dados brutos (train.csv e test.csv).
 - **notebooks/**: Notebooks de análise exploratória e modelagem.
-- **scripts/**: Scripts para pré-processamento e treinamento.
-- **models/**: Modelos treinados salvos.
 
-## Como Reproduzir
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/house-prices-project.git
