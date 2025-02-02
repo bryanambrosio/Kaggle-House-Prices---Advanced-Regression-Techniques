@@ -1,0 +1,14 @@
+# Ignorar arquivos de dados
+data/
+
+# Ignorar cache do Python
+__pycache__/
+
+# Ignorar checkpoints do Jupyter Notebook
+notebooks/.ipynb_checkpoints/
+
+# Ignorar modelos treinados grandes
+models/
+
+# Arquivos do sistema
+.DS_Store
