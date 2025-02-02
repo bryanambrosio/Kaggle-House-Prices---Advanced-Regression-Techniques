@@ -1,5 +1,7 @@
 # Portfolio - House Prices - Kaggle Challenge
 
+#Feito por Bryan Ambrósio
+
 Este repositório contém minha solução para o desafio "House Prices - Advanced Regression Techniques" do Kaggle.
 
 ## 📂 Estrutura do Projeto
@@ -18,4 +20,4 @@ pip install -r requirements.txt
 3. Execute os notebooks em `notebooks/` para análise e modelagem.
 
 ---
-Feito por Bryan Ambrósio
+
