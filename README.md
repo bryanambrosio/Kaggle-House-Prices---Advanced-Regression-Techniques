@@ -1,6 +1,6 @@
 # Portfolio - House Prices - Kaggle Challenge
 
-#Feito por Bryan Ambrósio
+# Feito por Bryan Ambrósio
 
 Este repositório contém minha solução para o desafio "House Prices - Advanced Regression Techniques" do Kaggle.
 
