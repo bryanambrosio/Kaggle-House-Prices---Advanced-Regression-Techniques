@@ -5,6 +5,7 @@
 Este repositório contém minha solução para o desafio "House Prices - Advanced Regression Techniques" do Kaggle.
 
 ## 📂 Estrutura do Projeto
+- `api/` → API do projeto
 - `data/` → Armazena os dados (não incluídos no GitHub)
 - `notebooks/` → Notebooks de exploração e modelagem
 - `src/` → Scripts Python para processamento e modelos
