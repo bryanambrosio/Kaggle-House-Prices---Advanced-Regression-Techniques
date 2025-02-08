@@ -7,7 +7,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Caminho do modelo salvo
-model_path = "models/house_pricing_model.pkl"
+model_path = "xgb_model.pkl"  # Caminho correto do modelo salvo
 
 # Carregar o modelo treinado
 with open(model_path, "rb") as model_file:
@@ -15,10 +15,16 @@ with open(model_path, "rb") as model_file:
 
 # Definir a estrutura dos dados de entrada usando Pydantic
 class HouseData(BaseModel):
-    feature_1: float
-    feature_2: float
-    feature_3: float
-    # Adicione todas as features que o modelo espera como entrada
+    LotFrontage: float
+    MasVnrArea: float
+    BsmtFinSF1: float
+    BsmtFinSF2: float
+    BsmtUnfSF: float
+    TotalBsmtSF: float
+    GarageArea: float
+    GarageCars: float
+    GarageYrBlt: float
+    # Adicione todas as outras features que o modelo espera como entrada
 
 @app.get("/")
 def read_root():
