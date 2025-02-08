@@ -7,7 +7,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Caminho do modelo salvo
-model_path = "xgb_model.pkl"  # Caminho correto do modelo salvo
+model_path = "models/house_price_model_2.pkl"
 
 # Carregar o modelo treinado
 with open(model_path, "rb") as model_file:
