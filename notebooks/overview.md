@@ -80,9 +80,9 @@ Neste projeto, foi desenvolvido um pipeline completo de pré-processamento, trei
 O modelo treinado foi exportado e está disponível para uso posterior.
 
 Tecnologias Utilizadas
-Python (para o processamento de dados e treinamento de modelos)
-pandas (para manipulação de dados)
-seaborn e matplotlib (para visualização dos dados)
-scikit-learn (para modelos de aprendizado de máquina)
-XGBoost (modelo avançado de árvores de decisão)
-pickle (para salvar o modelo treinado)
+- Python (para o processamento de dados e treinamento de modelos)
+- pandas (para manipulação de dados)
+- seaborn e matplotlib (para visualização dos dados)
+- scikit-learn (para modelos de aprendizado de máquina)
+- XGBoost (modelo avançado de árvores de decisão)
+- pickle (para salvar o modelo treinado)
